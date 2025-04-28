@@ -1,3 +1,13 @@
+#Secret bot tokens
+token.ini
+
+#IDEA folder
+.idea/
+
+#Java Buid output folders
+target/
+out/
+
 # Compiled class file
 *.class
 
