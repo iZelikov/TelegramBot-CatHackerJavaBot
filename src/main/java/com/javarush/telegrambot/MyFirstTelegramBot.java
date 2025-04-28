@@ -24,7 +24,7 @@ public class MyFirstTelegramBot extends MultiSessionTelegramBot {
 
     @Override
     public void onUpdateEventReceived(Update updateEvent) {
-        // TODO: основной функционал бота будем писать здесь
+        // основной функционал бота будем писать здесь
         String text = getMessageText().toLowerCase(Locale.ROOT);
         String button = getCallbackQueryButtonKey();
         switch (text) {
